@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: yellow;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: skyblue;
+    background-image: url('fb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#name,
+#email {
+    width: 50%;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#category {
+    width: 50%;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input,
+label,
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select option {
+    color: yellow;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
